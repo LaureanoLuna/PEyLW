@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilos.css">
     <title>Inmobiliaria Josefo</title>
 </head>
 <body  width="100%" height="100%" bgcolor="#E6E6E6">
@@ -50,6 +51,61 @@
             <td>accesibilidad</td>
             <td align="right" style="margin-right: 50px;"><a href=""><img src="imagenes/logoFacebook.png" width="105" alt=""></a><a href=""><img src="imagenes/logoInstagram.png" width="100" style="margin:0pc 30px 0px ;" alt=""></a><a href=""><img src="imagenes/logo-WhatsApp.png" width="100" style="margin: 0px 30px 0px 10px; " alt=""></a></td>
         </tr>
+
+       <table>
+           <form action="#">
+               <tr>
+                   <td>nombre:</td>
+                   <td><input type="text" name="NombText" maxlength="25" value="Ingrese Nombre"></td>
+               </tr>
+               <tr>
+                   <td>Apellido:</td>
+                   <td><input type="text" name="ApellidoText" maxlength="25" value="Ingrese Apellido"></td>
+               </tr>
+               <tr>
+                   <td>Direccion: </td>
+                   <td><textarea name="Direccion" id="#" cols="30" rows="3"></textarea></td>
+               </tr>
+               <tr>
+                   <td>Numero de telefono</td>
+                   <td><input type="text" value="0299-" maxlength="15"></td>
+               </tr>
+               <tr>
+                    <td>Que busca?</td>
+                   <td><input type="radio" name="Eleccion">Alquiler <input type="radio" name="Eleccion" checked>Compra</td>
+                   
+               </tr>
+               <tr>
+                   <td>Zona de eleccion</td>
+                   <td>
+                       <table>
+                           <tr>
+                               <td><input type="checkbox" name="Centro" checked></td>
+                               <td>Zona Centro</td>
+                           </tr>
+                           <tr>
+                               <td><input type="checkbox" name="norte"></td>
+                               <td>Zona Norte</td>
+                           </tr>
+                           <tr>
+                               <td><input type="checkbox" name="Sur" checked></td>
+                               <td>Zona Sur</td>
+                           </tr>
+                          
+                       </table>
+
+                   </td>
+               </tr>
+               <tr>
+                    <td>Comentario del inmueble:</td>
+                    <td><textarea name="ComentarioInmueble" id="#" cols="30" rows="10" >Ingrese una breve descripcion de lo busca...</textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="reset" value="Borrar" id="BotonBorrar"><input type="submit" value="Enviar" id="BotonEnviar"> </td>
+                </tr>
+           </form>
+       </table>
     </table>
     
 </body>
