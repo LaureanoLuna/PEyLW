@@ -1,0 +1,68 @@
+body{
+    margin: 5px 5px;
+    padding: 5px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    background-color: white;
+    color: black;
+    clear: left;
+    display: inline;
+    position: relative;
+}
+
+#linkList{
+    width: 20%;
+    position:relative;
+    
+    top: -60em ;
+    float: left;
+    margin: 0px 10px;
+}
+
+
+#pageHeader h1{
+    width: 300px;
+    padding: 10px;
+    border: solid black 1px;
+    background-color: #ccc;
+    position: absolute;
+    z-index: 10 ;
+    top:-1em
+}
+#pageHeader h2{
+    border: 1px solid grey;
+    padding: 15px;
+    visibility: visible;
+    position:relative;
+    top:0.40em;
+    left: 2em;
+}
+
+#pageHeader{
+    margin: 10px;
+    visibility: visible;
+}
+
+#intro, #supportingText{
+    width: 80%;
+    float: right;
+    margin-left: 3px;
+}
+#lresources ul{
+    list-style-type: none;
+    background-color: #9cf;
+    width: 70%;
+}
+
+#lresources ul a{
+    list-style-type: none;
+    
+    text-decoration: none;
+    font-weight: bold;
+    color: #036;
+}
+
+#lresources ul a:hover{
+    background-color: #036;
+    color: #9cf;
+}
